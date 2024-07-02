@@ -1,6 +1,5 @@
 # Visual-Agent-Studio
 
-# visual-agent-studio
 The low-code AI business platform, to be ready for AI challenges
 
 ## Agent Workflow in the context on Generative AI (GenAI)
@@ -22,30 +21,31 @@ The idea behind **Visual Studio Agent** is to provide a **Visual Integrated Deve
 
 ## High Level Architecture ⚡️
 
+![Architecture](./high-level-architecture.png)
 
 ## Front-End Layer
-_TO DO _
+_TO DO_
 
 ### Workbench
-_TO DO _
+_TO DO_
 
 ## Back-End Layer
-_TO DO _
+_TO DO_
 
 ### Runtime
-_TO DO _
+_TO DO_
 
 ## AI Layer
-_TO DO _
+_TO DO_
 
 ## Extensions 
 Extension is one of the most important concept in the architecture. Each extension provides two components: 
 
 1. **Client Component ( UI )**
-> _Define how present the Node on the Workflow designer_
+   > _Define how present the Node on the Workflow designer_
 
 1. **Server Component ( Service )**
-> _Define the task that will be executed when workflow engine trigger the Node_
+   > _Define the task that will be executed when workflow engine trigger the Node_
 
 When an extension is plugged into application the Front-End Layer use the UI Component while the Back-End Layer the Service Component.
 
@@ -54,13 +54,13 @@ Extensions unlock a world of endless possibilities, enabling the handling of var
 Currently we have defined three type of extensions **Agent**, **Tool**, **Action**
 
 ### Agents
-_TO DO _
+_TO DO_
 
 ### Tools
-_TO DO _
+_TO DO_
 
 ### Actions
-_TO DO _
+_TO DO_
 
 
 
