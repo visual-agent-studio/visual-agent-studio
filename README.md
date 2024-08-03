@@ -21,7 +21,7 @@ The idea behind **Visual Studio Agent** is to provide a  **Visual Integrated Dev
 
 >  **A key focus is on extendibility, enabling the possibility to create business tailored custom extensions to ensure flexibility and a future-proof Dev Environment** 
 
-The goal is to manage the entire Application Lifecycle Management from requirements to deploy
+The goal is to manage the entire Application Lifecycle Management from Requirements to Deploy
 
 ```mermaid
 flowchart LR
