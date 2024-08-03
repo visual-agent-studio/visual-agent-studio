@@ -21,7 +21,25 @@ The idea behind **Visual Studio Agent** is to provide a **Visual Integrated Deve
 
 > **A key focus is on extendibility, enabling the possibility to create business tailored custom extensions to ensure flexibility and a future-proof Dev Environment**
 
-
+```mermaid
+flowchart LR
+    req[Business\nRequirements]
+    ext[Business\nExtension]
+    subgraph Visual Agent Studio
+    design(Design)
+    test(Test)
+    end
+    subgraph Target Environemnt
+    deploy(Deploy)
+    end
+   
+    req --> design
+    ext --> design
+    design --> test
+    test -.->|refinements| design
+    
+    test -->|packaging| deploy
+```
 
 ## High Level Architecture ⚡️
 
